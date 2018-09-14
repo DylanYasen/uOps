@@ -1,4 +1,4 @@
-## Goal: dockerized cache server & build pipeline for unity
+## Goal: 
 ![goal][kool]
 
 ## Buy Why?
