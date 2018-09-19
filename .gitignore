@@ -1,3 +1,6 @@
 **/cache-server/
 **/jenkins/
 **/.vscode
+
+# env files
+**/slave.env

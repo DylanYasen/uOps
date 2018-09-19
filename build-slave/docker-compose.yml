@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jenkins-slave:
+    image:  jenkins/jnlp-slave
+    container_name: jenkins-slave
+    hostname: jenkins-slave
+    env_file:
+      - slave.env
+    volumes:
+      - ./jenkins:/var/jenkins_home
